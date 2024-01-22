@@ -1,0 +1,99 @@
+.form-hero{
+    display: flex;
+    height: 90vh;
+    background-image: url(../Assests/login.jpg);
+}
+.form-container{
+    background: linear-gradient(180deg,rgb(161, 53, 53),#e1ffea22 60%);
+    border: 1px solid rgb(50, 50, 50);
+    box-shadow: 0 2px 20px rgb(50, 50, 50);
+    width: 400px;
+    height: 550px;
+    display:flex;
+    flex-direction: column;
+    margin: 50px auto;
+    
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    
+}
+.text{
+     font-weight: bold;
+    font-size: 32px;
+}
+.underline{
+    width: 60px;
+    height: 5px;
+    background: black;
+    border-radius: 9px;
+}
+.inputs{
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 325px;
+    height: 50px;
+    background: #eaeaea;
+    border-radius: 6px;
+}
+
+.input img{
+    margin: 0px 30px;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    
+}
+.input input,select{
+    height: 45px;
+    width: 200px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #797979;
+    font-size: 16px;
+}
+.forgot-password{
+    padding-left: 60px;
+    margin-top: 25px;
+    color: #797979;
+    font-size: 16px;
+    align-items: center;
+}
+.forgot-password span{
+    color: rgb(169, 28, 28);
+    cursor: pointer;
+}
+.submit-container{
+    display: flex;
+    gap: 30px;
+    margin: 60px auto;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    color: #fff;
+    background: #4c00b4;
+    border-radius: 50px;
+    border: 45px;
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.gray{
+    background: #EAEAEA;
+    color: #676767;
+}
